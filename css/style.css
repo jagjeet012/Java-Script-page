@@ -1,0 +1,52 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+.container {
+    border-style: solid;
+    margin-right: 184px;
+    margin-bottom: 10px;
+    margin-top: 20px
+}
+
+#time {
+    font-weight: bold;
+    font-size: 150%
+}
+
+.left {
+    width: 40%;
+    padding: 0 0 0 5%;
+    float: left;
+    margin-bottom: 50px;
+    margin-top: 20px
+}
+
+.right {
+    width: 40%;
+    padding: 0 5% 0 0;
+    float: right
+}
+
+.divider {
+    border-left: 1px solid rgb(0, 0, 0);
+    height: 450px;
+    position: absolute;
+    left: 43%;
+    margin-left: -3px;
+    top: 100;
+}
+
+.length {
+    width: 50%;
+    margin-left: 0%
+}
+
+.heading {
+    align-content: center;
+
+}
+.colour {
+    color: red
+}

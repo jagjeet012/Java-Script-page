@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+
+            <div class="left">
+                <div id="time"></div>
+
+                <p class="heading">Personal Copy</p>
+                <hr class="length"><br>
+                <label>Name </label><input id="personalName" type="text" name="name" value="">
+                <div id="personalNameError" class="colour"></div><br>
+                <label>Address </label><input id="personalAddress" type="text" name="address" value="">
+                <div id="personalAddressError" class="colour"></div><br>
+                <label>Zip Code </label><input id="personalZipCode" type="text" name="zipcode" value="">
+                <div id="personalZipCodeError" class="colour"></div><br>
+                <label>Country </label><select id="personalCountry" name="country">
+                    <option value="options">--Options--</option>
+                    <option value="india">India</option>
+                    <option value="germany">Germany</option>
+                </select>
+                <div id="personalCountryError" class="colour"></div><br>
+                <label>Gender </label><input id="personalGender" type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+                <div id="personalGenderError" class="colour"></div><br>
+                <label>Preferences</label><input id="personalPreferences" type="checkbox" name="red" value="colour">
+                Red
+                <input type="checkbox" name="green" value="colour"> Green
+                <input type="checkbox" name="blue" value="colour"> Blue
+                <div id="personalpreferencesError" class="colour"></div><br>
+                <label>Phone </label><input id="personalPhone" type="text" name="phone" value="">
+                <div id="personalPhoneError" class="colour"></div><br>
+                <label>Email </label><input id="personalEmail" type="text" name="email" value="">
+                <div id="personalEmailError" class="colour"></div><br>
+                <label>Password </label><input id="personalPassword" type="password" name="password" value="">
+                <div id="personalPasswordError" class="colour"></div><br>
+                <label>Verify Password </label><input id="personalVerifyPassword" type="password" name="verifypassword"
+                    value="">
+                <div id="personalVerifyPasswordError" class="colour"></div><br>
+                <input type="button" value="SEND" onclick="return validateForm()"> <input type="submit" value="CLEAR">
+            </div>
+            <div class="divider"></div>
+            <div class="right">
+                <div> <br> <br> <br> </div>
+                <p class="heading">Office Copy</p>
+                <hr class="length"><br>
+                <label>Name </label><input id="officeName" type="text" name="name" value=""><br><br>
+                <label>Address </label><input id="officeAddress" type="text" name="address" value=""><br><br>
+                <label>Zip Code </label><input id="officeZipCode" type="text" name="zipcode" value=""><br><br>
+                <label>Country </label><select id="Country" name="country">
+                    <option value="options">--Options--</option>
+                    <option value="india">India</option>
+                    <option value="germany">Germany</option>
+                </select><br><br>
+                <label>Gender </label><input id="officeGender" type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other<br><br>
+                <label>Preferences</label><input id="officePreferences" type="checkbox" name="red" value="colour"> Red
+                <input type="checkbox" name="green" value="colour"> Green
+                <input type="checkbox" name="blue" value="colour"> Blue<br><br>
+                <label>Phone </label><input id="officePhone" type="text" name="phone" value=""><br><br>
+                <label>Email </label><input id="officeEmail" type="text" name="email" value=""><br><br>
+                <label>Password </label><input id="officePassword" type="password" name="password" value=""><br><br>
+                <label>Verify Password </label><input id="officeVerifyPassword" type="password" name="verifypassword"
+                    value=""><br><br>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+
+    </form>
+</body>
+
+</html>
